@@ -1,0 +1,61 @@
+
+body {
+    background-color: #f5edf0;
+    display: flex;
+}
+
+#menu{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+  
+#classement{
+    border: 1px solid black;
+    height: 520px;
+}
+
+#plateau-de-jeu {
+    display: flex;
+    width: 640px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.carte-div.anim {
+    transform: rotateY(180deg);
+  }
+  
+.carte-div {
+    width: 100Px;
+    height: 130px;
+    margin : 3px;
+    position: relative;
+    padding: 5px;
+    transform-style: preserve-3d;
+}
+.dos-de-carte{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}  
+
+.face-de-la-carte {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border: 1px solid black;
+}
+
+.face-de-la-carte {
+    transform: rotateY(180deg);
+}
+
+ p{
+    color: black;
+}   
